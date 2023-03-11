@@ -1,0 +1,85 @@
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+
+}
+.room {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    background-image: url(../img/room.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    perspective: 1000px;
+
+}
+.table {
+    width: 270px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    transform: skew(-30deg);
+}
+.picture {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/picture.jpg);
+    position: relative;
+    top: 340px;
+    left: 190px;
+}
+.nout {
+    height: 80px;
+    width: 100px;
+    background-image: url(../img/nout.jpeg);
+    background-size: 100%;
+    position: absolute;
+    top: 650px;
+    left: 170px;
+    transform: skew(0,-10deg);
+}
+.bed {
+    width: 250px;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    z-index: 3;
+    top: 650px;
+    left: 850px;
+    transform: rotateX(55deg);
+}
+.header {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(124, 41, 41);
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+.pillow {
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/pillow.jpg);
+    background-size: 100%;
+    border-radius: 40px;
+    position: absolute;
+    z-index: 5;
+    top: 600px;
+    left: 850px;
+    transform: rotate3d(1,-1,1,45deg);
+}
+.clock {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/clock.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 850px;
+    top: 400px;
+}
